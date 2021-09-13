@@ -57,4 +57,4 @@ JOIN  rideable_type_by_month AS electric
 ON docked.member_casual = electric.member_casual AND docked.month = electric.month
 WHERE docked.rideable_type = 'docked_bike' AND electric.rideable_type = 'electric_bike';
 
-/*Como conclusión de esto, se deduce un constante amplio margen de preferencia sobre las bicicletas docked*/
+/*Como conclusión de esto, se deduce un constante amplio margen de preferencia sobre las bicicletas docked por ambos tipos de usuarios, Casuales y Miembros*/
